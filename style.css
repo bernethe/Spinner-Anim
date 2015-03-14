@@ -1,0 +1,62 @@
+#status_sp_txt {
+    font-size: 0.75em;
+	color: rgba(0,0,0,.8);
+	text-align: center;
+    margin: 5px auto;
+}
+
+#spinner_mc {
+	height: 30px;
+	width: 30px;
+	margin: 0px auto;
+	position: relative;
+	border-radius: 100%;
+	border-left: 4px solid rgba(0,0,0,.15);
+	border-right: 4px solid rgba(0,0,0,.15);
+	border-bottom: 4px solid rgba(0,0,0,.15);
+	border-top: 4px solid rgba(0,0,0,.8);
+	-webkit-animation: rotation .6s infinite linear;
+	-moz-animation: rotation .6s infinite linear;
+	-o-animation: rotation .6s infinite linear;
+	animation: rotation .6s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+
+	to {
+		-webkit-transform: rotate(359deg);
+	}
+}
+
+@-moz-keyframes rotation {
+	from {
+		-moz-transform: rotate(0deg);
+	}
+
+	to {
+		-moz-transform: rotate(359deg);
+	}
+}
+
+@-o-keyframes rotation {
+	from {
+		-o-transform: rotate(0deg);
+	}
+
+	to {
+		-o-transform: rotate(359deg);
+	}
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
